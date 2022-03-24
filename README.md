@@ -2,4 +2,4 @@
 ### Repositório contendo os códigos, desafios e materias referentes ao Bootcamp Phillips Fullstack da DIO
 
 #### Links úteis
-[Digital Innovation One](www.dio.me)
+[Digital Innovation One](dio.me)
