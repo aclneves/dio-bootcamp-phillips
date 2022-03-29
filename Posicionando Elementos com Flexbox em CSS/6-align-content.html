@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    <style>
+        .container {
+            height: 500px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 1px solid black;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Consectetur velit veniam minim ex nulla enim sunt do aliquip dolore aliqua dolore eiusmod.</div>
+        <div class="item">Lorem laborum duis non pariatur duis.</div>
+        <div class="item">Id ex culpa laboris exercitation laboris eiusmod exercitation ipsum esse.</div>
+        <div class="item">Exercitation proident magna labore est nulla anim ipsum eu elit et magna ut dolore adipisicing.</div>
+        <div class="item">Incididunt do eiusmod fugiat officia ad laboris deserunt do tempor pariatur ullamco do.</div>
+        <div class="item">Occaecat et non nostrud do qui nulla et eu.</div>
+        <div class="item">Nisi fugiat ipsum magna et nisi non adipisicing Lorem et.</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Consectetur velit veniam minim ex nulla enim sunt do aliquip dolore aliqua dolore eiusmod.</div>
+        <div class="item">Lorem laborum duis non pariatur duis.</div>
+        <div class="item">Id ex culpa laboris exercitation laboris eiusmod exercitation ipsum esse.</div>
+        <div class="item">Exercitation proident magna labore est nulla anim ipsum eu elit et magna ut dolore adipisicing.</div>
+        <div class="item">Incididunt do eiusmod fugiat officia ad laboris deserunt do tempor pariatur ullamco do.</div>
+        <div class="item">Occaecat et non nostrud do qui nulla et eu.</div>
+        <div class="item">Nisi fugiat ipsum magna et nisi non adipisicing Lorem et.</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Consectetur velit veniam minim ex nulla enim sunt do aliquip dolore aliqua dolore eiusmod.</div>
+        <div class="item">Lorem laborum duis non pariatur duis.</div>
+        <div class="item">Id ex culpa laboris exercitation laboris eiusmod exercitation ipsum esse.</div>
+        <div class="item">Exercitation proident magna labore est nulla anim ipsum eu elit et magna ut dolore adipisicing.</div>
+        <div class="item">Incididunt do eiusmod fugiat officia ad laboris deserunt do tempor pariatur ullamco do.</div>
+        <div class="item">Occaecat et non nostrud do qui nulla et eu.</div>
+        <div class="item">Nisi fugiat ipsum magna et nisi non adipisicing Lorem et.</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Consectetur velit veniam minim ex nulla enim sunt do aliquip dolore aliqua dolore eiusmod.</div>
+        <div class="item">Lorem laborum duis non pariatur duis.</div>
+        <div class="item">Id ex culpa laboris exercitation laboris eiusmod exercitation ipsum esse.</div>
+        <div class="item">Exercitation proident magna labore est nulla anim ipsum eu elit et magna ut dolore adipisicing.</div>
+        <div class="item">Incididunt do eiusmod fugiat officia ad laboris deserunt do tempor pariatur ullamco do.</div>
+        <div class="item">Occaecat et non nostrud do qui nulla et eu.</div>
+        <div class="item">Nisi fugiat ipsum magna et nisi non adipisicing Lorem et.</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">Consectetur velit veniam minim ex nulla enim sunt do aliquip dolore aliqua dolore eiusmod.</div>
+        <div class="item">Lorem laborum duis non pariatur duis.</div>
+        <div class="item">Id ex culpa laboris exercitation laboris eiusmod exercitation ipsum esse.</div>
+        <div class="item">Exercitation proident magna labore est nulla anim ipsum eu elit et magna ut dolore adipisicing.</div>
+        <div class="item">Incididunt do eiusmod fugiat officia ad laboris deserunt do tempor pariatur ullamco do.</div>
+        <div class="item">Occaecat et non nostrud do qui nulla et eu.</div>
+        <div class="item">Nisi fugiat ipsum magna et nisi non adipisicing Lorem et.</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-between">
+        <div class="item">Consectetur velit veniam minim ex nulla enim sunt do aliquip dolore aliqua dolore eiusmod.</div>
+        <div class="item">Lorem laborum duis non pariatur duis.</div>
+        <div class="item">Id ex culpa laboris exercitation laboris eiusmod exercitation ipsum esse.</div>
+        <div class="item">Exercitation proident magna labore est nulla anim ipsum eu elit et magna ut dolore adipisicing.</div>
+        <div class="item">Incididunt do eiusmod fugiat officia ad laboris deserunt do tempor pariatur ullamco do.</div>
+        <div class="item">Occaecat et non nostrud do qui nulla et eu.</div>
+        <div class="item">Nisi fugiat ipsum magna et nisi non adipisicing Lorem et.</div>
+    </div>
+    
+</body>
+</html>
